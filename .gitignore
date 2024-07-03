@@ -1,0 +1,40 @@
+.gradle
+/build/
+/logs/
+/docker/containerData/
+!gradle/wrapper/gradle-wrapper.jar
+upload/
+deployment/docker
+/volume/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/.jpb/persistence-units.xml
+/.jpb/
+
+# macOS related system files
+.DS_Store
+/.kotlin/
+/docker/mosquitto-data/mosquitto.db
+daimbria/build
+demo/build
